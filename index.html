@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevBoard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="container mx-auto">
+    <!-- header area start********************* -->
+    <header class="flex justify-between px-6 py-4">
+      <div class="logo flex items-center">
+        <img src="./assets/logo.png" class="w-8 mr-2" alt="site Logo" />
+        <h1 class="text-2xl">Dev<span class="font-bold">Board</span></h1>
+      </div>
+      <div class="navBTN flex items-center">
+        <button class="text-2xl mr-9">24</button>
+        <button>
+          <img src="./assets/theme-btn.png" class="cursor-pointer" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <!-- main section start ******************** -->
+
+    <main>
+      <div class="main-cards bg-green-300">
+        <div class="mainCard"></div>
+        <div class="cardItmes"></div>
+      </div>
+      <div class="ActivityLog bg-red-300">
+        <div class="logAreaHeding">
+          <img src="./assets/activity.png" alt="">
+          <h2 class="Activity">Activity Log</h2>
+        </div>
+        <button>Clear History</button>
+        <div class="logsHistory"></div>
+      </div>
+    </main>
+  </body>
+</html>
