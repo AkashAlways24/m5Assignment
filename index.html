@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevBoard</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -19,7 +20,13 @@
         <h1 class="text-2xl">Dev<span class="font-bold">Board</span></h1>
       </div>
       <div class="navBTN flex items-center">
-        <button class="text-2xl mr-9">24</button>
+        <input
+          type="checkbox"
+          name=""
+          id=""
+          class="checkbox checkbox-md mr-2"
+        />
+        <h4 class="text-2xl font-bold mr-9">24</h4>
         <button>
           <img src="./assets/theme-btn.png" class="cursor-pointer" alt="" />
         </button>
@@ -28,14 +35,54 @@
 
     <!-- main section start ******************** -->
 
-    <main>
-      <div class="main-cards bg-green-300">
-        <div class="mainCard"></div>
-        <div class="cardItmes"></div>
+    <main class="flex gap-2">
+      <div class="main-cards bg-green-300 w-3/4">
+        <div class="mainCard flex justify-between">
+          <div class="TaskBTN bg-slate-300 flex items-center w-1/5">
+            <input
+              type="checkbox"
+              name=""
+              id=""
+              class="checkbox checkbox-lg mr-2"
+            />
+            <div class="text">
+              <p>Task Assigned </p>
+              <h4 class="text-2xl font-bold">0</h4>
+            </div>
+          </div>
+
+          <div class="newDay flex items-center w-3/5 p-5">
+            <img src="./assets/board.png" alt="" class="w-20" />
+            <p class="text-base text-white">
+              Discover Something <br />New Today!
+            </p>
+          </div>
+
+          <div class="date bg-slate-300 w-1/5 p-5">
+            <img src="./assets/calender.png" alt="" />
+            <div class="dayDate">date</div>
+          </div>
+        </div>
+
+
+        <div class="cardItmes">
+          <div class="cardItme">
+            <p>ShopEase</p>
+            <h3>Fix Mobile Button Issue </h3>
+            <p>Debug using Chrome DevTools, check for overlappin</p>
+            <div class="dateANDBTN">
+              <div class="date">
+                
+              </div>
+              <button class="cardBTN"></button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="ActivityLog bg-red-300">
+
+      <div class="ActivityLog bg-red-300 w-1/4">
         <div class="logAreaHeding">
-          <img src="./assets/activity.png" alt="">
+          <img src="./assets/activity.png" alt="" />
           <h2 class="Activity">Activity Log</h2>
         </div>
         <button>Clear History</button>
