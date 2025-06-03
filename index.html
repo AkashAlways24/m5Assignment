@@ -36,7 +36,7 @@
     <!-- main section start ******************** -->
 
     <main class="flex gap-2">
-      <div class="main-cards bg-green-300 w-3/4">
+      <div class="main-cards  w-3/4">
         <div class="mainCard flex justify-between">
           <div class="TaskBTN bg-slate-300 flex items-center w-1/5">
             <input
@@ -64,30 +64,114 @@
           </div>
         </div>
 
+        <div class="cardItmes mt-12 grid grid-cols-3 gap-1">
 
-        <div class="cardItmes">
-          <div class="cardItme">
-            <p>ShopEase</p>
-            <h3>Fix Mobile Button Issue </h3>
-            <p>Debug using Chrome DevTools, check for overlappin</p>
-            <div class="dateANDBTN">
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">ShopEase</p>
+            <h3 class="text-2xl mt-4">Fix Mobile Button Issue</h3>
+            <p class="mt-4 text-base text-gray-500">
+              Debug using Chrome DevTools, check for overlappin
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
-                
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
               </div>
-              <button class="cardBTN"></button>
+              <button class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
+
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">CloudSync</p>
+            <h3 class="text-2xl mt-4">Add Dark Mode</h3>
+            <p class="mt-4 text-base text-gray-500">
+              Store the user's preference in localStorage, update CSS varia
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
+              <div class="date">
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
+              </div>
+              <button class="cardBTN btn btn-primary">Completed</button>
+            </div>
+          </div>
+
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">SwiftPay</p>
+            <h3 class="text-2xl mt-4">Optimize  Home page </h3>
+            <p class="mt-4 text-base text-gray-500">
+              Debug using Chrome DevTools, check for overlappin
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
+              <div class="date">
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
+              </div>
+              <button class="cardBTN btn btn-primary">Completed</button>
+            </div>
+          </div>
+
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">Meta</p>
+            <h3 class="text-2xl mt-4">Add new emoji 🤲</h3>
+            <p class="mt-4 text-base text-gray-500">
+              Debug using Chrome DevTools, check for overlappi
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
+              <div class="date">
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
+              </div>
+              <button class="cardBTN btn btn-primary">Completed</button>
+            </div>
+          </div>
+
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">Google LLC</p>
+            <h3 class="text-2xl mt-4">Integrate OpenAI API </h3>
+            <p class="mt-4 text-base text-gray-500">
+              Debug using Chrome DevTools, check for overlappin
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
+              <div class="date">
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
+              </div>
+              <button class="cardBTN btn btn-primary">Completed</button>
+            </div>
+          </div>
+
+          <div class="cardItme rounded-lg bg-yellow-100 p-6">
+            <p class="">Improve Job searching </p>
+            <h3 class="text-2xl mt-4">Glassdoar</h3>
+            <p class="mt-4 text-base text-gray-500">
+              Debug using Chrome DevTools, check for overlappin
+            </p>
+            <div class="dateANDBTN mt-4 flex justify-between items-center">
+              <div class="date">
+                <p class="text-base text-gray-500">Deadline</p>
+                <p class="font-bold">date</p>
+              </div>
+              <button class="cardBTN btn btn-primary">Completed</button>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
-      <div class="ActivityLog bg-red-300 w-1/4">
-        <div class="logAreaHeding">
+      <div class="ActivityLog text-center bg-red-300 w-1/4">
+        <div class="logAreaHeding flex justify-center items-center mt-6">
           <img src="./assets/activity.png" alt="" />
-          <h2 class="Activity">Activity Log</h2>
+          <h2 class="Activity text-xl">Activity Log</h2>
         </div>
-        <button>Clear History</button>
+        <button class=" btn btn-primary mt-6">Clear History</button>
         <div class="logsHistory"></div>
       </div>
+
+
     </main>
+
+    
   </body>
 </html>
