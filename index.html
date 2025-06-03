@@ -47,7 +47,7 @@
             />
             <div class="text">
               <p>Task Assigned </p>
-              <h4 class="text-2xl font-bold">0</h4>
+              <h4 id="tasksNum" class="text-2xl font-bold">6</h4>
             </div>
           </div>
 
@@ -58,12 +58,12 @@
             </p>
           </div>
 
-          <div class="date bg-slate-300 w-1/5 p-5">
-            <img src="./assets/calender.png" alt="" />
-            <div class="dayDate">date</div>
+          <div class="date bg-slate-300 w-1/5 p-5 flex justify-between items-center">
+            <img src="./assets/calender.png" alt="" class="w-7 mr-4">
+            <div id="dayDate" class="text-2xl">date</div>
           </div>
         </div>
-
+ <!-- card itmes ************************** -->
         <div class="cardItmes mt-12 grid grid-cols-3 gap-1">
 
           <div class="cardItme rounded-lg bg-yellow-100 p-6">
@@ -75,9 +75,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate1" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN1" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -90,9 +90,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate2" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN2" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -105,9 +105,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate3" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN3" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -120,9 +120,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate4" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN4" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -135,9 +135,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate5" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN5" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -150,9 +150,9 @@
             <div class="dateANDBTN mt-4 flex justify-between items-center">
               <div class="date">
                 <p class="text-base text-gray-500">Deadline</p>
-                <p class="font-bold">date</p>
+                <p id="taskDate6" class="font-bold">date</p>
               </div>
-              <button class="cardBTN btn btn-primary">Completed</button>
+              <button id="cardBTN6" class="cardBTN btn btn-primary">Completed</button>
             </div>
           </div>
 
@@ -172,6 +172,7 @@
 
     </main>
 
-    
+<script src="./script/utilities.js"></script>
+<script src="./script/mainScript.js"></script>
   </body>
 </html>
