@@ -16,6 +16,9 @@ const btn = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN1");
     disabeBtn.disabled = true;
   });
@@ -27,6 +30,9 @@ const btn2 = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN2");
     disabeBtn.disabled = true;
   });
@@ -38,6 +44,9 @@ const btn3 = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN3");
     disabeBtn.disabled = true;
   });
@@ -49,6 +58,9 @@ const btn4 = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN4");
     disabeBtn.disabled = true;
   });
@@ -60,6 +72,9 @@ const btn5 = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN5");
     disabeBtn.disabled = true;
   });
@@ -71,6 +86,9 @@ const btn6 = document
     const taskMinersNun = getIdToInnerTextValue("tasksNum");
     const clickBtnTask = taskMinersNun - 1;
     document.getElementById("tasksNum").innerText = clickBtnTask;
+    const taskTotal = getIdToInnerTextValue("taskTotal");
+    const tasktoatlResult = taskTotal + 1;
+    document.getElementById("taskTotal").innerText = tasktoatlResult;
     const disabeBtn = document.getElementById("cardBTN6");
     disabeBtn.disabled = true;
   });
