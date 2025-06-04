@@ -92,3 +92,11 @@ const btn6 = document
     const disabeBtn = document.getElementById("cardBTN6");
     disabeBtn.disabled = true;
   });
+
+// next page button er javaScript
+
+document.getElementById("newDayBTN").addEventListener("click", function () {
+  window.location.href = "newDay.html";
+});
+
+
