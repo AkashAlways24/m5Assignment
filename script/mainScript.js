@@ -19,6 +19,9 @@ const btn = document
     const taskTotal = getIdToInnerTextValue("taskTotal");
     const tasktoatlResult = taskTotal + 1;
     document.getElementById("taskTotal").innerText = tasktoatlResult;
+    
+    // aikhane ses korsilam kintu aj kono kaj korte pari nai osusto
+
     const disabeBtn = document.getElementById("cardBTN1");
     disabeBtn.disabled = true;
   });
